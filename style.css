@@ -46,6 +46,10 @@ body {
     padding-bottom: 3rem;
 }
 #signin .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: 8vh;
 }
 
@@ -118,7 +122,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: flex-start;
     justify-content: center;
     background-position: 50% center;
 }
@@ -129,9 +133,7 @@ img {
 }
 
 .buildskills {
-    /* display: flex; */
     margin-bottom: 24px;
-    /* height: 100vh; */
     background-position: 50%;
     background-size: cover;
 }
@@ -225,7 +227,7 @@ img {
 .showcase-btn {
     padding: 12px 80px;
     font-size: 14px;
-    border: none;
+    min-width: unset;
     border-radius: 2px;
     font-weight: 500;
     background: linear-gradient(to right, #F05A28,#EC008C,#F05A28);
@@ -233,8 +235,6 @@ img {
     text-decoration: none;
     transition: 0.3s all;
     margin: 0px;
-    /* width: 50%; */
-    display: block;
 }
 
 .svg-btn {
